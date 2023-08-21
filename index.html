@@ -11,7 +11,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 
 <body>
@@ -20,43 +20,72 @@
   </header>
   <main>
    
-    <div class="row">
-      <div class="col-md-6">
-        <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
-          <div class="circle-box">
-            <div class="row">
-              <button href="" class="item-1"><div class="col-md-6">
-                <img src="web-development.png" width="100" alt="">
-                <div class="item-1-title">
-                  <h5>Web<br>Development</h5>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="d-flex justify-content-center align-items-center mt-5">
+            <div class="circle-box" id="circle-box">
+              <div class="row">
+
+                <button id="btn1" class="item-1">
+                  <img id="img1" src="web-development.png" width="100" alt="">
+                  <div class="item-1-title">
+                    <h5>Web<br>Development</h5>
+                  </div>
+                </button>
+
+                <button id="btn2" class="item-2">
+                  <img id="img2" src="graphic.png" width="150" alt="">
+                  <div class="item-2-title">
+                    <h5>Grapnics<br>Design</h5>
+                  </div>
+                </button>
+
+              </div>
+              <div class="row">
+                <button id="btn3" class="item-3">
+                  <div class="item-3-title">
+                    <h5>Video<br>Editing</h5>
+                  </div>
+                  <img id="img3" src="video-edit.png" width="150" alt="">
+                </button>
+
+                <button id="btn4" class="item-4">
+                  <div class="item-4-title">
+                    <h5>Motion<br>Graphics</h5>
+                  </div>
+                  <img id="img4" src="motion.png" width="80" class="mt-4" alt="">
+                </button>
+
+              </div>
+              <div class="service-logo">
+                <div class="logo-area">
+                  <img src="logo.png" width="150" alt="">
                 </div>
-              </div></button>
-              <button href="" class="item-2"><div class="col-md-6">
-                <img src="graphic.png" width="150" alt="">
-                <div class="item-2-title">
-                  <h5>Grapnics<br>Design</h5>
-                </div>
-              </div></button>
-            </div>
-            <div class="row">
-              <button href="" class="item-3"><div class="col-md-6">
-                <img src="video-edit.png" width="150" alt="">
-                <div class="item-3-title">
-                  <h5>Video<br>Editing</h5>
-                </div>
-              </div></button>
-              <button href="" class="item-4"><div class="col-md-6">
-                <img src="motion.png" width="80" class="mt-4" alt="">
-                <div class="item-4-title">
-                  <h5>Motion<br>Graphics</h5>
-                </div>
-              </div></button>
-            </div>
-            <div class="service-logo">
-              <div class="logo-area">
-                <img src="logo.png" width="150" alt="">
               </div>
             </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div id="item1" class="tab-item-1 mt-5">
+            <h2>Web Development</h2>
+            <p>Professional landing pages are the key to gaining new customers. It is the key to getting the most results from your clickable ads. The skills and efforts of our team lead to the creation of superb landing pages that have all the elements necessary for success. The main purpose of the landing page is to increase the sales of the specific product</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gmSA8r0Z5BE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div id="item2" class="tab-item-2 mt-5">
+            <h2>Graphic Design</h2>
+            <p>Professional landing pages are the key to gaining new customers. It is the key to getting the most results from your clickable ads. The skills and efforts of our team lead to the creation of superb landing pages that have all the elements necessary for success. The main purpose of the landing page is to increase the sales of the specific product</p>
+            <img src="graphic.png" alt="">
+          </div>
+          <div id="item3" class="tab-item-3 mt-5">
+            <h2>Video Editing</h2>
+            <p>Professional landing pages are the key to gaining new customers. It is the key to getting the most results from your clickable ads. The skills and efforts of our team lead to the creation of superb landing pages that have all the elements necessary for success. The main purpose of the landing page is to increase the sales of the specific product</p>
+            <img src="graphic.png" alt="">
+          </div>
+          <div id="item4" class="tab-item-4 mt-5">
+            <h2>Motion Graphics</h2>
+            <p>Professional landing pages are the key to gaining new customers. It is the key to getting the most results from your clickable ads. The skills and efforts of our team lead to the creation of superb landing pages that have all the elements necessary for success. The main purpose of the landing page is to increase the sales of the specific product</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gmSA8r0Z5BE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
       </div>
